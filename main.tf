@@ -2,7 +2,7 @@
 
 data "tfe_outputs" "resource_grp" {
   organization = "MasonClouds"
-  workspace    = "storage-dev-us-east"
+  workspace    = "sysengg-dev-us-east"
 }
 
 resource "azurerm_storage_account" "acme_sa" {
