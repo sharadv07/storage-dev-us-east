@@ -12,4 +12,5 @@ resource "azurerm_storage_account" "acme_sa" {
   account_tier             = "Standard"
   account_replication_type = "GRS"
 
+
 }
